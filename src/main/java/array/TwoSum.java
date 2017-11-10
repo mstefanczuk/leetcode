@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-* Source: https://leetcode.com/problems/two-sum
+* Source: https://leetcode.com/problems/two-sum/
 *
 * Solution description:
 * First of all, let's create HashMap to store integer value as a key and its index as a value.
@@ -14,7 +14,7 @@ import java.util.Map;
 * If map doesn't contain the wanted key, we just put new pair in map which is (actual integer, it's index).
 * */
 
-class No1TwoSum {
+class TwoSum {
 
     int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();

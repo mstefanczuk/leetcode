@@ -5,13 +5,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class No1TwoSumTest {
+public class TwoSumTest {
 
-    private No1TwoSum no1TwoSum;
+    private TwoSum twoSum;
 
     @Before
     public void setUp() throws Exception {
-        no1TwoSum = new No1TwoSum();
+        twoSum = new TwoSum();
     }
 
     @Test
@@ -20,7 +20,7 @@ public class No1TwoSumTest {
         int target = 9;
         int[] expected = {0, 1};
 
-        assertArrayEquals(expected, no1TwoSum.twoSum(nums, target));
+        assertArrayEquals(expected, twoSum.twoSum(nums, target));
     }
 
 }
